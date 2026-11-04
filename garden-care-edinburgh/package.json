@@ -1,0 +1,12 @@
+{
+  "name": "garden-care-edinburgh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Garden Care Edinburgh",
+  "scripts": {
+    "build": "node gen-services.js && node build.js",
+    "start": "node server.js",
+    "dev": "npm run build && node server.js"
+  },
+  "engines": { "node": ">=18" }
+}

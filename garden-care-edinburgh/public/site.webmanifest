@@ -1,0 +1,1 @@
+{ "name": "Garden Care Edinburgh", "short_name": "Garden Care", "start_url": "/", "display": "standalone", "background_color": "#f7f8f1", "theme_color": "#0f2419", "icons": [{ "src": "/assets/img/logo-mark.svg", "sizes": "any", "type": "image/svg+xml" }] }

@@ -1,0 +1,100 @@
+<!--meta
+{"key":"contact","path":"/contact/","title":"Contact & Free Quote | Garden Care Edinburgh","description":"Get a free gardening quote from Garden Care Edinburgh. Call 07414 080999, 7 days a week, 8am–8pm. 17/1 Polwarth Gardens, Edinburgh EH11 1JT."}
+-->
+<section class="page-hero">
+  <div class="bg"><img src="/assets/img/raised-beds.webp" alt="" width="1000" height="667"></div>
+  <div class="container">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span aria-current="page">Contact</span></nav>
+    <span class="eyebrow">{{icon:leaf}} Contact us</span>
+    <h1>Let’s get your <em class="accent" style="color:var(--gold-2)">free quote</em> sorted.</h1>
+    <p class="lead">Call, send a WhatsApp or fill in the form, whichever’s easiest. We’re open 7 days a week, 8am – 8pm.</p>
+  </div>
+</section>
+
+<section class="section" id="quote">
+  <div class="container contact-grid">
+    <div class="form-card reveal from-left">
+      <h2 style="font-size:1.9rem">Request a free quote</h2>
+      <p style="color:var(--muted)">Fields marked <span style="color:var(--gold-deep)">*</span> are required.</p>
+      <form id="quote-form" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="name">Full name <span class="req">*</span></label><input id="name" name="name" type="text" autocomplete="name" required maxlength="80"><span class="err" role="alert"></span></div>
+          <div class="field"><label for="email">Email <span class="req">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="120"><span class="err" role="alert"></span></div>
+          <div class="field"><label for="phone">Phone number <span class="req">*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="20" placeholder="07…"><span class="err" role="alert"></span></div>
+          <div class="field"><label for="service">Service</label>
+            <select id="service" name="service">
+              <option value="">Not sure yet</option>
+              <option value="grass-cutting">Grass Cutting &amp; Lawn Care</option>
+              <option value="hedge-trimming">Hedge Trimming</option>
+              <option value="garden-clearance">Full Garden Clearance</option>
+              <option value="garden-maintenance">Regular Garden Maintenance</option>
+              <option value="weeding-borders">Weeding &amp; Border Care</option>
+              <option value="seasonal-tidy">Seasonal Tidy-Ups</option>
+            </select>
+          </div>
+          <div class="field full"><label for="message">Tell us about your garden <span class="req">*</span></label><textarea id="message" name="message" required maxlength="2000" placeholder="E.g. Back garden in Morningside, lawn needs cutting and a 10m hedge trimmed…"></textarea><span class="err" role="alert"></span></div>
+          <div class="hp" aria-hidden="true"><label for="_honey">Leave this empty</label><input id="_honey" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
+        </div>
+        <div class="form-foot">
+          <small data-form-note>We only use your details to reply to your enquiry. We never share them.</small>
+          <button type="submit" class="btn btn-gold"><span class="spinner" aria-hidden="true"></span><span>Send my request</span><span class="btn-label-icon">{{icon:send}}</span></button>
+        </div>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+
+    <aside class="info-stack reveal from-right">
+      <div class="info-card">
+        <h2>Talk to us directly</h2>
+        <ul class="info-list">
+          <li><a href="{{site.phoneHref}}"><span class="ic">{{icon:phone}}</span><span><small>Call us</small><strong>{{site.phone}}</strong></span></a></li>
+          <li><a href="{{site.whatsapp}}" target="_blank" rel="noopener"><span class="ic">{{icon:whatsapp}}</span><span><small>WhatsApp</small><strong>Message us now</strong></span></a></li>
+          {{emailItem}}
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=17%2F1%20Polwarth%20Gardens%2C%20Edinburgh%20EH11%201JT" target="_blank" rel="noopener"><span class="ic">{{icon:pin}}</span><span><small>Address</small><strong>17/1 Polwarth Gardens,<br>Edinburgh EH11 1JT</strong></span></a></li>
+        </ul>
+      </div>
+      <div class="form-card" style="padding:28px">
+        <h2 style="font-size:1.4rem">Opening hours</h2>
+        <span class="open-now" data-open-now>Checking hours…</span>
+        <ul class="hours">
+          <li><span>Monday – Friday</span><strong>8:00am – 8:00pm</strong></li>
+          <li><span>Saturday</span><strong>8:00am – 8:00pm</strong></li>
+          <li><span>Sunday</span><strong>8:00am – 8:00pm</strong></li>
+        </ul>
+      </div>
+      <div style="display:grid;gap:12px">
+        <a href="{{site.whatsapp}}" target="_blank" rel="noopener" class="btn btn-wa btn-block">{{icon:whatsapp}}<span>Chat on WhatsApp</span></a>
+        <button type="button" class="btn btn-outline btn-block" data-open-chat>{{icon:chat}}<span>Ask our assistant</span></button>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0">
+  <div class="container">
+    <div class="section-head reveal" style="margin-bottom:28px">
+      <span class="eyebrow">{{icon:pin}} Find us</span>
+      <h2>Based in Polwarth, working across Edinburgh.</h2>
+      <p class="lead">17/1 Polwarth Gardens, Edinburgh EH11 1JT. Not sure if we cover your area? Just ask.</p>
+    </div>
+    <div class="map-wrap reveal zoom">
+      <iframe title="Map showing Garden Care at 17/1 Polwarth Gardens, Edinburgh EH11 1JT" src="https://maps.google.com/maps?q=17%2F1%20Polwarth%20Gardens%2C%20Edinburgh%20EH11%201JT&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">{{icon:leaf}} FAQs</span>
+      <h2>Quick answers.</h2>
+    </div>
+    <div class="faq reveal">
+      <details><summary>How do I get a price?{{icon:plus}}</summary><p>Call {{site.phone}}, send a WhatsApp or use the quote form. Tell us what you need and roughly how big the garden is. Photos help us quote accurately.</p></details>
+      <details><summary>When are you open?{{icon:plus}}</summary><p>Every day, Monday to Sunday, from 8am to 8pm.</p></details>
+      <details><summary>Do you take away the clippings and waste?{{icon:plus}}</summary><p>We always clear up clippings and leave the garden tidy. Let us know about larger amounts of waste from clearances when you ask for a quote, and we’ll confirm how it will be handled.</p></details>
+      <details><summary>Do I need to be home?{{icon:plus}}</summary><p>Not usually, as long as we can get into the garden. We’ll agree access when booking.</p></details>
+      <details><summary>Which areas do you cover?{{icon:plus}}</summary><p>We’re based in Polwarth (EH11) and work across Edinburgh. Get in touch with your postcode and we’ll confirm.</p></details>
+    </div>
+  </div>
+</section>

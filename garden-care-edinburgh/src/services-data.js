@@ -1,0 +1,28 @@
+// Detailed content for the Services page (rendered by gen-services.js into src/pages/services.html)
+// The first three are the services listed on Yell; the rest are related services. CONFIRM with the owner.
+module.exports = [
+  { id: 'grass-cutting', icon: 'mower', img: 'lawn-mower', alt: 'Lawn mower cutting a green lawn', title: 'Grass Cutting & Lawn Care', tag: 'Regular or one-off',
+    intro: 'A well-cut lawn transforms the whole garden. We cut, edge and tidy lawns of all sizes on a schedule that suits you.',
+    points: ['Lawn mowing to the right height for the season', 'Neat edges along borders and paths', 'Clippings collected and cleared', 'Weekly, fortnightly or one-off visits', 'First cut of the season and overgrown lawns'],
+    more: ['Regular cuts through the growing season keep your lawn thicker and healthier. If your grass has got out of hand, we can tackle long and overgrown lawns too.', 'Tell us roughly how big the lawn is (or send a photo) and how often you’d like it cut, and we’ll give you a free quote.'] },
+  { id: 'hedge-trimming', icon: 'scissors', img: 'hedge-trimming', alt: 'Conifer hedge being trimmed with shears', title: 'Hedge Trimming', tag: 'Shape · Cut back · Tidy',
+    intro: 'Neat hedges make a garden look cared for. We trim, shape and cut back hedges and shrubs, then clear away every clipping.',
+    points: ['Trimming and shaping of hedges and shrubs', 'Cutting back overgrown hedges', 'Front, back and boundary hedges', 'Clippings collected and paths swept', 'One-off or regular trims'],
+    more: ['Most hedges benefit from a trim once or twice a year. We’ll let you know the best timing for your hedge type.', 'Please mention the approximate length and height of your hedges when requesting a quote.'] },
+  { id: 'garden-clearance', icon: 'shovel', img: 'gardener-working', alt: 'Gardener clearing and preparing a garden plot', title: 'Full Garden Clearance', tag: 'Overgrown · Neglected',
+    intro: 'If your garden has got away from you, we’ll bring it back. Our full clearance service cuts back, digs out and clears overgrown spaces so you can start fresh.',
+    points: ['Overgrown grass, weeds and brambles cut back', 'Shrubs and unwanted plants removed', 'Beds and borders cleared', 'Ideal for new homes, rentals and sales', 'Garden left clean and ready to use'],
+    more: ['Clearances are priced by the size and condition of the garden, so photos really help us give you an accurate quote.', 'Once it’s cleared, we can keep it that way with regular maintenance visits.'] },
+  { id: 'garden-maintenance', icon: 'calendar', img: 'green-garden', alt: 'Lush, well-maintained green garden', title: 'Regular Garden Maintenance', tag: 'Weekly · Fortnightly · Monthly',
+    intro: 'Keep your garden looking great all year round with regular visits that take care of the essentials.',
+    points: ['Grass cutting and edging', 'Light hedge and shrub trimming', 'Weeding beds and borders', 'Leaf and debris clearance', 'Flexible schedule, 7 days a week'],
+    more: ['We agree a simple plan of what’s included each visit, so you always know what to expect.'] },
+  { id: 'weeding-borders', icon: 'flower', img: 'allium-border', alt: 'Neat garden border with purple allium flowers', title: 'Weeding & Border Care', tag: 'Beds · Borders · Paths',
+    intro: 'Weeds spread fast. We clear beds, borders, paths and patios so your plants have room to thrive.',
+    points: ['Hand weeding of beds and borders', 'Paths, patios and driveway edges', 'Dead-heading and tidying plants', 'Edging borders for a crisp finish', 'All green waste bagged'],
+    more: ['Available on its own or as part of a regular maintenance plan.'] },
+  { id: 'seasonal-tidy', icon: 'leaf', img: 'garden-path-hedges', alt: 'Garden path lined with neatly trimmed hedges', title: 'Seasonal Tidy-Ups', tag: 'Spring · Autumn · Pre-sale',
+    intro: 'Get your garden ready for the season ahead, or looking its best before selling or letting your property.',
+    points: ['Spring tidy and first cuts', 'Autumn leaf clearance', 'Cutting back for winter', 'Pre-sale and pre-let garden makeovers', 'One-off visits, no contract'],
+    more: ['A tidy garden makes a big first impression for buyers and tenants. Tell us your deadline and we’ll work to it.'] },
+];
