@@ -184,7 +184,7 @@
     const rules = {
       name: (v) => v.trim().length >= 2 || 'Please enter your name.',
       email: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) || 'Please enter a valid email address.',
-      phone: (v) => /^(\+44\s?7\d{3}|\(?07\d{3}\)?|\+?\d{2,4}[\s-]?\d{2,4})[\s\d-]{5,12}$/.test(v.trim()) || 'Please enter a valid phone number, e.g. 07502 372439.',
+      phone: (v) => /^(\+44\s?7\d{3}|\(?07\d{3}\)?|\+?\d{2,4}[\s-]?\d{2,4})[\s\d-]{5,12}$/.test(v.trim()) || 'Please enter a valid phone number, e.g. 07700 900123.',
       message: (v) => v.trim().length >= 10 || 'Please tell us a little more (at least 10 characters).',
     };
     const check = (input) => {
